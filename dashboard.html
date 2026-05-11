@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Dashboard - QueueLess</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="dashboard">
+    <h2>Queue Dashboard 🚀</h2>
+
+    <p><strong>Service:</strong> Hospital</p>
+
+    <p><strong>Now Serving:</strong> 
+        <span class="highlight">H100</span>
+    </p>
+
+    <p><strong>Your Token:</strong> 
+        <span class="highlight" id="yourToken">H101</span>
+    </p>
+
+    <p><strong>Estimated Waiting Time:</strong> 
+        <span id="waitingTime">5 minutes</span>
+    </p>
+
+    <br>
+
+    <button onclick="generateToken()">Generate Token</button>
+</div>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

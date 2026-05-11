@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Login - QueueLess</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <h2>User Login</h2>
+
+    <form name="loginForm" action="LoginServlet" method="post" onsubmit="return validateLogin()">
+
+        <input type="email" name="email" placeholder="Enter Email">
+
+        <input type="password" name="password" placeholder="Enter Password">
+
+        <button type="submit">Login</button>
+    </form>
+
+    <br>
+    <a href="signup.html">Don't have an account? Signup</a>
+</div>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
